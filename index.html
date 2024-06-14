@@ -1,7 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autonomous Human-Controlled Search and Rescue Robot Fleet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Exo 2', sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        h1, h2 {
+            font-weight: 700;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        .title {
+            font-size: 2em;
+            font-weight: 700;
+        }
+        .subtitle {
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+        .content-section {
+            margin-bottom: 40px;
+        }
+        .img-container, .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello </h1>
-<p>you r a bitch.</p>
+
+    <h1>Autonomous Human-Controlled Search and Rescue Robot Fleet</h1>
+
+    <div class="content-section">
+        <h2 class="subtitle">Abstract</h2>
+        <p>Imagine a rescue mission where the main robot, controlled via LTE, needs to go underground or pass through an obstruction, losing its signal. With our technology, it can deploy a smaller relay robot outside the challenging area. This relay robot receives the LTE signal and relays it to the main robot using methods like 2.4GHz radio or cable, ensuring continuous connectivity and control. It would then locate a person and be able to relay their position.</p>
+        <p>The escalating frequency and severity of natural catastrophes due to climate change necessitate advanced solutions for search and rescue operations. Our project, the Autonomous Human-Controlled Search and Rescue Robot Fleet, addresses this critical need by introducing a fleet of remotely controlled robots designed to navigate and operate in hazardous and inaccessible terrains. These robots are equipped to locate, recognize, and assist individuals in distress, while simultaneously transmitting real-time location data to health services.</p>
+    </div>
+
+    <div class="content-section">
+        <h2 class="subtitle">Project Overview</h2>
+        <p>Our project aims to enhance search and rescue operations by introducing a fleet of remotely controlled robots designed to access and navigate environments that are otherwise inaccessible to humans. The primary feature of our technology is its autonomous relay system, which ensures continuous communication and control even in challenging terrains and conditions.</p>
+    </div>
+
+    <div class="content-section">
+        <h2 class="subtitle">Technology Description</h2>
+        <p>The core component of our system is a human-controlled robot equipped with First Person View (FPV) capabilities, allowing operators to remotely navigate and explore hazardous or inaccessible areas in real-time. This robot is designed to locate and assist in the rescue of individuals trapped or lost in difficult-to-reach locations, such as collapsed buildings, underground tunnels, or densely wooded areas.</p>
+        <p>To overcome the inherent limitations of remote control in such environments, we are developing a relay system composed of smaller, autonomous ground robots. These relay robots can be strategically deployed by the main robot to maintain a continuous communication link with the operator.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+            <li><strong>Autonomous Positioning:</strong> The smaller relay robots are capable of positioning themselves autonomously to create an optimal communication pathway between the main robot and the operator.</li>
+            <li><strong>Signal Relay:</strong> Using LTE technology for remote control, these relay robots ensure that the main robot remains connected even when it enters areas where direct LTE signals cannot penetrate. They achieve this by receiving the LTE signal and relaying it to the main robot through alternative communication methods such as 2.4GHz radio or cable.</li>
+            <li><strong>FPV Technology:</strong> The main robot is equipped with high-definition cameras and sensors, providing operators with a clear, real-time view of the environment and enhancing situational awareness.</li>
+            <li><strong>Versatile Communication:</strong> The system is designed to switch seamlessly between different communication technologies, ensuring robust and reliable connectivity in various scenarios.</li>
+        </ul>
+    </div>
+
+    <div class="content-section">
+        <h2 class="subtitle">Our Team</h2>
+        <p>Our team is composed of engineering students specializing in electrical engineering and other disciplines. The project leaders are:</p>
+        <p><strong>Mathias Desrochers (Co-Leader):</strong> A 3rd-year electrical engineering student who represented Quebec at the Canadian Engineering Games, won first place at Canada's largest Makeathon organized by the University of Toronto, and serves as Vice President of IEEE Concordia.</p>
+        <p><strong>Ali Eid (Co-Leader):</strong> A 3rd-year electrical engineering student who serves as lab supervisor in IEEE Concordia with a strong passion for robotics, telecommunication and endurance sports, mainly triathlons.</p>
+    </div>
+
+    <div class="content-section">
+        <h2 class="subtitle">Impact</h2>
+        <p>Our project has the potential to significantly enhance the effectiveness of search and rescue missions, reducing the time required to locate and assist individuals in distress. By ensuring continuous communication and control, our autonomous relay system increases the operational range and reliability of the main robot, ultimately contributing to safer and more successful rescue efforts.</p>
+        <p>We are excited about the opportunity to present our technology to UNESCO and demonstrate how it can make a tangible difference in emergency response and humanitarian efforts globally.</p>
+    </div>
+
+    <div class="content-section">
+        <h2 class="subtitle">Current Progress</h2>
+        <p>As of June 10, 2024, we are focusing on both hardware and software development. Our robots are simple, fully custom-built RC cars used to showcase the potential of our idea. We are currently working on integrating radio communication and LTE reception for data transmission. Several team members are working under our leadership on this aspect. We have conducted field tests of our custom-built radio communication packet system but have yet to integrate it with LTE communication and deploy it as a fleet.</p>
+    </div>
+
+    <div class="content-section">
+        <h2 class="subtitle">Our Goal</h2>
+        <p>We are currently focusing on developing the software necessary to autonomously control the fleet when the connection is lost. This includes implementing computer vision, AI, object detection, and autonomous navigation. Additionally, we are working on the protocol to take input from LTE data and transfer it to radio data.</p>
+    </div>
+
+    <div class="img-container">
+        <img src="image1.jpg" alt="Robot Image 1" width="300">
+        <img src="image2.jpg" alt="Robot Image 2" width="300">
+    </div>
+
+    <div class="video-container">
+        <video width="600" controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
 </body>
 </html>
